@@ -31,4 +31,17 @@ return {
       { i(1), i(2), i(3) }
     )
   ),
+  s({ trig = 'undl', snippetType = 'autosnippet' }, fmta('#underline[<>]', { i(1) })),
+  s(
+    { trig = 'slidt', snippetType = 'autosnippet' },
+    fmta(
+      [[
+#slide[
+  =
+  <>
+]
+  ]],
+      { i(1) }
+    )
+  ),
 }
